@@ -1,0 +1,19 @@
+name: "❓ Question / Soru"
+description: "Ask a question or request clarification / Bir soru sor veya açıklama iste"
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### ❔ Write your question below.  
+        ### ❔ Sorunuzu aşağıya yazın.
+  - type: textarea
+    id: question
+    attributes:
+      label: "Question / Soru"
+      placeholder: "Example: Why doesn't the program accept lowercase hex input? / Örnek: Program neden küçük harfli hex girişini kabul etmiyor?"
+  - type: input
+    id: context
+    attributes:
+      label: "Context / Ek Bilgi"
+      placeholder: "Java 21, Windows 11, Eclipse"
