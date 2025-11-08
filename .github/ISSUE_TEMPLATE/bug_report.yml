@@ -1,0 +1,35 @@
+name: "🐞 Bug Report / Hata Bildirimi"
+description: "Report a bug or unexpected behavior / Bir hata veya beklenmeyen davranışı bildir"
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🐛 Please fill out the form below.  
+        ### Lütfen aşağıdaki bilgileri doldurun.
+  - type: input
+    id: summary
+    attributes:
+      label: "Short Summary / Kısa Açıklama"
+      placeholder: "Example: Conversion fails when input contains lowercase letters / Örnek: Küçük harf içeren girişte dönüşüm başarısız oluyor"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce / Yeniden Üretme Adımları"
+      placeholder: |
+        1. Run the program / Programı çalıştır
+        2. Enter this value: ... / Şu değeri gir: ...
+        3. Observe the output / Çıktıyı gözlemle
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected Behavior / Beklenen Sonuç"
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual Behavior / Gerçekleşen Sonuç"
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment Info / Ortam Bilgisi"
+      placeholder: "Java 17, Windows 10, IntelliJ IDEA"
