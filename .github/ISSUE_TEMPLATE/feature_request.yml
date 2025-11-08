@@ -1,0 +1,24 @@
+name: "🌟 Feature Request / Özellik Talebi"
+description: "Suggest a new feature or improvement / Yeni bir özellik veya geliştirme öner"
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 Describe the feature you’d like to see.  
+        ### 💡 Görmek istediğiniz özelliği açıklayın.
+  - type: input
+    id: title
+    attributes:
+      label: "Feature Title / Özellik Başlığı"
+      placeholder: "Example: Add binary copy button / Örnek: Binary çıktısını kopyalama butonu ekle"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Feature Description / Özellik Açıklaması"
+      description: "Why is this feature needed? / Bu özellik neden gerekli?"
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "Possible Implementation / Olası Uygulama"
+      description: "How could it be implemented? / Nasıl uygulanabilir?"
