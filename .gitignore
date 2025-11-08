@@ -1,0 +1,40 @@
+# === Java build files ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Compiled output folders ===
+/bin/
+/build/
+/out/
+/target/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+
+# === VS Code ===
+.vscode/
+
+# === Logs & temp files ===
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === Backup files ===
+*.bak
+*.old
+
+# === Java-specific ===
+hs_err_pid*
+replay_pid*
+
+# === Environment files ===
+.env
