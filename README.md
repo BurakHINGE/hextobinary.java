@@ -9,15 +9,15 @@
 
 ## 📌 Version Info / Sürüm Bilgisi
 
-- **Version:** v1.0.0  
-- **Sürüm:** v1.0.0  
+- **Version:** v1.1.0  
+- **Sürüm:** v1.1.0  
 
 ---
 
 | Language / Dil | Link / Bağlantı |
 |----------------|-----------------|
-| 🇬🇧 English  | [English Version](hextobinary.java) |
-| 🇹🇷 Türkçe      | [Türkçe Versiyon](hextobinary.java) |
+| 🇬🇧 English  | [English Version](eng_hextobinary.java) |
+| 🇹🇷 Türkçe      | [Türkçe Versiyon](tr_hextobinary.java) |
 
 ---
 
@@ -74,3 +74,17 @@ Java öğrenenler için mükemmel bir başlangıç örneği. ✨
 ► 💻 Temiz ve anlaşılır Java kodu  
 
 ---
+
+## Version History | Sürüm Geçmişi
+
+| Version / Sürüm | Date / Tarih | Description / Açıklama |
+|-----------------|--------------|-----------------------|
+| v1.1.0          | 2025-11-22   | English version added / İngilizce sürüm eklendi.
+| v1.0.0          | 2025-11-21   | Converts a single hex character to binary / Tek bir hexadecimal karakteri binaryye çevirir |
+
+---
+
+## License / Lisans
+This project is licensed under the MIT License.  
+Bu proje MIT Lisansı altında lisanslanmıştır.  
+See the [LICENSE](LICENSE) file for more information / Daha fazla bilgi için LICENSE dosyasına bakınız.
