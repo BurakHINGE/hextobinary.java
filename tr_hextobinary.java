@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class hextobinary {
+public class tr_hexToBinary {
     public static void main(String[] args) {
         while (true) {
         Scanner input = new Scanner(System.in);
