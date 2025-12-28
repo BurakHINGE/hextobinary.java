@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HexToBinary {
+public class eng_hexToBinary {
     public static void main(String[] args) {
         while (true) {
             Scanner input = new Scanner(System.in);
